@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 67px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+/* 
+    transition: width .75s ease; */
+}
+
+a:link, a:visited {
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li {
+    float: left;
+    border-width: 0px 1px 0px 0px;
+    border-color: rgb(38, 38, 38);
+    border-style: solid;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #c20a0a;
+}
+
+a {
+    width: 80px;
+    max-height: max-content;
+    
+}
+
+#contactus {
+    background-color: rgb(100, 0, 0);
+}
+
+
+#logo {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.headerbar {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #0b0b0b;
+    color: #fff;
+    margin-top: 100px;
+    border-radius: 3px 3px 3px 3px;
+    font-family: Helvetica ;
+}
+
+.centerbar {
+    display: block;
+    margin: auto;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.headerbar:hover {
+    border-radius: 2px 2px 2px 2px;
+    transform: scale(1.02);
+    transition: 0.50s ease;
+}
